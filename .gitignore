@@ -150,3 +150,9 @@ _ReSharper*
 src/PagedList.Mvc/Content/
 
 .idea/
+
+NuGet/X\.PagedList\.Mvc4/
+
+NuGet/X\.PagedList4/
+
+*.nupkg

@@ -1,6 +1,11 @@
 # X.PagedList
 [![Build status](https://ci.appveyor.com/api/projects/status/vlbd5ei5l7keyui9?svg=true)](https://ci.appveyor.com/project/ernado-x/x-pagedlist)
 
+```
+This packages is just changes for ASP.NET MVC 4 & .NET 4.5. This project currently doesn't have relation to ASP.NET MVC 5. 
+All of the tests which are in this project are green. So that's enough for me.
+```
+
 ## What is this?
 This is fork of Troy's project  PagedList(https://github.com/troygoode/PagedList).
 The main difference is that X.PagedList is a portable assembly. It means you can use it not only in Web projects but also in Winforms, WPF, Window Phone, Silverlight and other .NET projects.

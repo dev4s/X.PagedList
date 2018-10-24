@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>X.PagedList.Mvc4</id>
+    <version>7.6.0</version>
+    <authors>dev4s</authors>
+    <owners>Copyright Troy Goode,Ernado © 2017</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dev4s/X.PagedList/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/dev4s/X.PagedList</projectUrl>
+    <iconUrl>https://ru.gravatar.com/userimage/8071071/f2dc08ee7e4016451f64a7ae9cffd110.png?size=200</iconUrl>
+    <description>Library for easily paging through any IEnumerable/IQueryable in ASP.NET MVC. Package for ASP.NET MVC 4 and .NET 4.5</description>
+    <tags>PagedList PagedList4 MVC MVC4 ASP.NET .NET 4.5</tags>
+    <repository type="git" url="https://github.com/dev4s/X.PagedList.git" />
+    <dependencies>
+        <dependency id="X.PagedList4" version="7.6.0" exclude="Build,Analyzers"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="X.PagedList.Mvc4\*\**" target="\" exclude="X.PagedList4\**\*.*"/>
+  </files>
+</package>
